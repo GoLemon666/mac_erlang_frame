@@ -1,0 +1,13 @@
+{application, openpoker,
+ [
+  {description, ""},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  sasl
+                 ]},
+  {mod, { openpoker_app, []}},
+  {env, []}
+ ]}.

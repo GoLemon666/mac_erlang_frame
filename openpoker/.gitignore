@@ -1,0 +1,13 @@
+.eunit
+.DS_Store
+deps
+*.o
+*.beam
+*.plt
+ebin
+log
+Mnesia*
+*.dump
+
+rel/openpoker/
+rel/log/
